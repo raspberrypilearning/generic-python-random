@@ -1,5 +1,5 @@
-title: python-random
+title: Randomness in Python
 hero_image: images/banner.png
-subtitle: python-random subtitle
-description: python-random description
+subtitle: generating random numbers in Python
+description: How to use the random module from the Python standard library
 published: 'false'
