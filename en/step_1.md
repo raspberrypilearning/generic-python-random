@@ -2,16 +2,16 @@
 
 One of the standard modules in Python is the `random` module. This allows you to create pseudo-random numbers in your code.
 
-### `randrange`
+### `randint`
 
-You can generate random integers between two values using the `randrange` function.
+You can generate random integers between two values using the `randint` function.
 
 ~~~ python
-form random import randrange
-num = randrange(0,10)
+from random import randint
+num = randint(0,10)
 ~~~
 
-This will produce a random integer between 0 and 9 (inclusive).
+This will produce a random integer between 0 and 10 (inclusive).
 
 
 ### `uniform`
@@ -34,4 +34,3 @@ from random import choice
 deck = ['Ace', 'King', 'Queen', 'Jack']
 card = choice(deck)
 ~~~
-
