@@ -1,37 +1,29 @@
-## Randomness in Python
+One of the standard modules in Python is the `random` module. You can use it to create pseudo-random numbers in your code.
 
-One of the standard modules in Python is the `random` module. This allows you to create pseudo-random numbers in your code.
+### randint
 
-### `randrange`
+You can generate random integers between two values using the `randint` function. For example, the following line of code will produce a random integer between 0 and 10 (inclusive).
 
-You can generate random integers between two values using the `randrange` function.
+```python
+from random import randint
+num = randint(0,10)
+```
 
-~~~ python
-form random import randrange
-num = randrange(0,10)
-~~~
+### uniform
 
-This will produce a random integer between 0 and 9 (inclusive).
+If you want a random floating-point number (also called float), you can use the `uniform` function. For example, the following line of code will produce a random float that's equal to or greater than 0, but less than 10.
 
-
-### `uniform`
-
-If you want a random floating point number, you can use the `uniform` function
-
-~~~ python
+```python
 from random import uniform
 num = uniform(0,10)
-~~~
+```
 
-This will produce a random float that's equal to or greater than 0, but less than 10.
+### choice
 
-### `choice`
+If you want to choose a random item from a list, you can use the `choice` function.
 
-If you want to choose a random item from a list, you can use the `choice` function
-
-~~~ python
+```python
 from random import choice
 deck = ['Ace', 'King', 'Queen', 'Jack']
 card = choice(deck)
-~~~
-
+```
