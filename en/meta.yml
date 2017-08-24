@@ -1,0 +1,8 @@
+title: Randomness in Python
+hero_image: images/banner.png
+subtitle: generating random numbers in Python
+description: How to use the random module from the Python standard library
+published: false
+steps:
+  - title: Step one
+    duration: 60
