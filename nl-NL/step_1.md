@@ -1,29 +1,29 @@
-One of the standard modules in Python is the `random` module. You can use it to create pseudo-random numbers in your code.
+Een van de standaardmodules in Python is de `random` module. Je kunt het gebruiken om pseudo-willekeurige getallen in je code te maken.
 
 ### randint
 
-You can generate random integers between two values using the `randint` function. For example, the following line of code will produce a random integer between 0 and 10 (inclusive).
+Je kunt willekeurige gehele getallen tussen twee waarden genereren met de functie `randint`. De volgende coderegel produceert bijvoorbeeld een willekeurig geheel getal tussen 0 en 10 (inclusief).
 
 ```python
 from random import randint
-num = randint(0,10)
+getal = randint(0,10)
 ```
 
 ### uniform
 
-If you want a random floating-point number (also called float), you can use the `uniform` function. For example, the following line of code will produce a random float that's equal to or greater than 0, but less than 10.
+Als je een willekeurig getal met drijvende komma (ook float genoemd) wilt, kun je de functie `uniform` gebruiken. De volgende coderegel zal bijvoorbeeld een willekeurige float produceren die gelijk is aan of groter is dan 0, maar minder dan 10.
 
 ```python
 from random import uniform
-num = uniform(0,10)
+getal = uniform(0,10)
 ```
 
-### choice
+### keuze
 
-If you want to choose a random item from a list, you can use the `choice` function.
+Als je een willekeurig item uit een lijst wilt kiezen, kun je de functie `choice` gebruiken.
 
 ```python
 from random import choice
-deck = ['Ace', 'King', 'Queen', 'Jack']
-card = choice(deck)
+kaarten = ['Aas', 'Heer', 'Vrouw', 'Boer']
+kaart = choice(kaarten)
 ```
