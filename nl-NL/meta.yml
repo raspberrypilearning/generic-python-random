@@ -1,0 +1,14 @@
+---
+title: Willekeurigheid in Python
+hero_image: images/banner.png
+description: Hoe de random module uit de standaardbibliotheek van Python te gebruiken
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests:
+technology: "python"
+steps:
+  - title: De random module
