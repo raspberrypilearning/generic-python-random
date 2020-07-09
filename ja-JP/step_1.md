@@ -1,8 +1,8 @@
-One of the standard modules in Python is the `random` module. You can use it to create pseudo-random numbers in your code.
+Pythonの標準モジュールのひとつに`random`（乱数）モジュールがあります。 これを使うとコードの中で疑似乱数（ぎじらんすう）をつくることができます。
 
 ### randint
 
-You can generate random integers between two values using the `randint` function. For example, the following line of code will produce a random integer between 0 and 10 (inclusive).
+`randint`関数を使うと、2つの値の間のランダムな整数を生成することができます。 たとえば、次のコード行では0以上10以下のランダムな整数値を生成します。
 
 ```python
 from random import randint
@@ -11,7 +11,7 @@ num = randint(0,10)
 
 ### uniform
 
-If you want a random floating-point number (also called float), you can use the `uniform` function. For example, the following line of code will produce a random float that's equal to or greater than 0, but less than 10.
+ランダムな浮動小数点数（float（浮動小数）とも呼ばれます）が必要な場合は、`uniform`関数が使えます。 たとえば、次のコード行は0以上10未満のランダムな浮動小数を生成します。
 
 ```python
 from random import uniform
@@ -20,7 +20,7 @@ num = uniform(0,10)
 
 ### choice
 
-If you want to choose a random item from a list, you can use the `choice` function.
+リストからランダムに項目を選びたいときは、`choice`関数が使えます。
 
 ```python
 from random import choice
