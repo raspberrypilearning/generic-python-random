@@ -1,8 +1,8 @@
-One of the standard modules in Python is the `random` module. You can use it to create pseudo-random numbers in your code.
+Ένα από τα τυπικά αρθρώματα στην Python είναι το `τυχαίο` άρθρωμα. Μπορείς να τo χρησιμοποιήσεις για να δημιουργήσεις ψευδο-τυχαίους αριθμούς στον κώδικά σου.
 
 ### randint
 
-You can generate random integers between two values using the `randint` function. For example, the following line of code will produce a random integer between 0 and 10 (inclusive).
+Μπορείς να δημιουργήσεις τυχαίους ακέραιους αριθμούς μεταξύ δύο τιμών χρησιμοποιώντας την συνάρτηση `randint`. Για παράδειγμα, η ακόλουθη γραμμή κώδικα θα παράγει έναν τυχαίο ακέραιο μεταξύ 0 και 10 (συμπεριλαμβάνεται).
 
 ```python
 from random import randint
@@ -11,7 +11,7 @@ num = randint(0,10)
 
 ### uniform
 
-If you want a random floating-point number (also called float), you can use the `uniform` function. For example, the following line of code will produce a random float that's equal to or greater than 0, but less than 10.
+Εάν θέλεις έναν τυχαίο αριθμό κινητής υποδιαστολής (που ονομάζεται επίσης float), μπορείς να χρησιμοποιήσεις την συνάρτηση `uniform`. Για παράδειγμα, η ακόλουθη γραμμή κώδικα θα παράγει ένα τυχαίο float ίσο ή μεγαλύτερο από 0, αλλά μικρότερο από 10.
 
 ```python
 from random import uniform
@@ -20,7 +20,7 @@ num = uniform(0,10)
 
 ### choice
 
-If you want to choose a random item from a list, you can use the `choice` function.
+Εάν θέλεις να επιλέξεις ένα τυχαίο στοιχείο από μια λίστα, μπορείς να χρησιμοποιήσεις την συνάρτηση `choice`.
 
 ```python
 from random import choice
