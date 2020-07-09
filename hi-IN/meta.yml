@@ -1,0 +1,15 @@
+---
+title: Python में अनियमितता
+hero_image: images/banner.png
+description: Python standard library से random मॉड्यूल का उपयोग कैसे करें
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests:
+technology: "python"
+steps:
+  - 
+    title: random मॉड्यूल
