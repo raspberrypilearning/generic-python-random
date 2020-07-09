@@ -1,7 +1,7 @@
 ---
-title: Randomness in Python
+title: L'aléatoire en Python
 hero_image: images/banner.png
-description: How to use the random module from the Python standard library
+description: Comment utiliser le module random de la bibliothèque standard Python
 original_url:
 theme: cc-prototype
 duration: 1
@@ -12,4 +12,4 @@ interests:
 technology: "python"
 steps:
   - 
-    title: The random module
+    title: Le module random
