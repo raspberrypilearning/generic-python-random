@@ -1,29 +1,29 @@
-One of the standard modules in Python is the `random` module. You can use it to create pseudo-random numbers in your code.
+إحدى الوحدات القياسية في Python هي وحدة ` عشوائي `. يمكنك استخدامه لإنشاء أرقام عشوائية مزيفة في التعليمات البرمجية الخاصة بك.
 
 ### randint
 
-You can generate random integers between two values using the `randint` function. For example, the following line of code will produce a random integer between 0 and 10 (inclusive).
+يمكنك إنشاء أعداد صحيحة عشوائية بين قيمتين باستخدام دالة `randint`. على سبيل المثال، السطر التالي من التعليمات البرمجية سينتج عدداً صحيحاً عشوائياً بين 0 و 10 (ضمنياً).
 
 ```python
 from random import randint
-num = randint(0,10)
+الرقم = randint(0,10)
 ```
 
 ### uniform
 
-If you want a random floating-point number (also called float), you can use the `uniform` function. For example, the following line of code will produce a random float that's equal to or greater than 0, but less than 10.
+إذا كنت ترغب في رقم عشوائي (عشري) ، يمكنك استخدام دالة `uniform`. على سبيل المثال، السطر التالي من التعليمات البرمجية سينتج ارقام عشرية عشوائية أكبر او تساوي 0 ، ولكن أقل من 10.
 
 ```python
 from random import uniform
-num = uniform(0,10)
+الرقم = uniform(0,10)
 ```
 
 ### choice
 
-If you want to choose a random item from a list, you can use the `choice` function.
+إذا كنت ترغب في اختيار عنصر عشوائي من قائمة ، يمكنك استخدام دالة `choice`.
 
 ```python
 from random import choice
-deck = ['Ace', 'King', 'Queen', 'Jack']
-card = choice(deck)
+deck = ['الآيس', 'ملك', 'ملكة', 'جاك']
+بطاقة= choice(deck)
 ```
