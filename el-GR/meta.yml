@@ -1,0 +1,14 @@
+---
+title: Τυχαιότητα στην Python
+hero_image: images/banner.png
+description: Πώς να χρησιμοποιήσεις το τυχαίο άρθρωμα από την τυπική βιβλιοθήκη της Python
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests:
+technology: "python"
+steps:
+  - title: Το τυχαίο άρθρωμα
