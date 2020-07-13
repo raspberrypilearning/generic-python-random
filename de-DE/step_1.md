@@ -1,8 +1,8 @@
-One of the standard modules in Python is the `random` module. You can use it to create pseudo-random numbers in your code.
+Eines der Standardmodule in Python ist das `random` (Zufalls) -Modul. Du kannst es verwenden, um pseudo-zufällige Zahlen in deinem Code zu erstellen.
 
 ### randint
 
-You can generate random integers between two values using the `randint` function. For example, the following line of code will produce a random integer between 0 and 10 (inclusive).
+Du kannst zufällige Ganzzahlen zwischen zwei Werten generieren, indem du die `randint` Funktion verwendest. For example, the following line of code will produce a random integer between 0 and 10 (inclusive).
 
 ```python
 from random import randint
