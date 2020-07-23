@@ -1,26 +1,26 @@
-One of the standard modules in Python is the `random` module. You can use it to create pseudo-random numbers in your code.
+파이썬에서 기본적인 모듈 중 하나는 바로 `random` 모듈입니다. 이를 사용하여 Code에서 랜덤한 값을 생성할 수 있습니다.
 
-### randint
+### randint 함수
 
-You can generate random integers between two values using the `randint` function. For example, the following line of code will produce a random integer between 0 and 10 (inclusive).
+`randint` 함수를 사용해 주어진 두 값 사이의 랜덤한 정수를 생성할 수 있습니다. 예를 들어, 다음 코드는 0에서 10사이의 임의의 정수를 생성합니다. (0과 10 포함)
 
 ```python
 from random import randint
 num = randint(0,10)
 ```
 
-### uniform
+### uniform 함수
 
-If you want a random floating-point number (also called float), you can use the `uniform` function. For example, the following line of code will produce a random float that's equal to or greater than 0, but less than 10.
+랜덤한 부동 소수점 수(실수) 가 필요하다면 `uniform` 함수를 사용할 수 있습니다. 예를 들어, 다음 코드는 0이상 10이하인 랜덤한 부동 소수점 수를 생성합니다.
 
 ```python
 from random import uniform
 num = uniform(0,10)
 ```
 
-### choice
+### choice 함수
 
-If you want to choose a random item from a list, you can use the `choice` function.
+리스트에서 랜덤한 값을 선택하려면 `choice` 함수를 사용할 수 있습니다.
 
 ```python
 from random import choice
