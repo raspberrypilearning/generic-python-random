@@ -1,7 +1,7 @@
 ---
-title: Randomness in Python
+title: 파이썬에서의 랜덤
 hero_image: images/banner.png
-description: How to use the random module from the Python standard library
+description: 파이썬 표준 라이브러리에서 랜덤 모듈을 사용하는 방법
 original_url:
 theme: cc-prototype
 duration: 1
@@ -12,4 +12,4 @@ interests:
 technology: "python"
 steps:
   - 
-    title: The random module
+    title: 랜덤 모듈
