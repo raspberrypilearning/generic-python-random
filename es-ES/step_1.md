@@ -1,8 +1,8 @@
-One of the standard modules in Python is the `random` module. You can use it to create pseudo-random numbers in your code.
+Uno de los módulos estándar en Python es el módulo `random`. Puedes usarlo para crear números pseudo-aleatorios en tu código.
 
 ### randint
 
-You can generate random integers between two values using the `randint` function. For example, the following line of code will produce a random integer between 0 and 10 (inclusive).
+Puedes generar enteros aleatorios entre dos valores usando la función `randint`. Por ejemplo, la siguiente línea de código producirá un entero aleatorio entre 0 y 10 (inclusive).
 
 ```python
 from random import randint
@@ -11,7 +11,7 @@ num = randint(0,10)
 
 ### uniform
 
-If you want a random floating-point number (also called float), you can use the `uniform` function. For example, the following line of code will produce a random float that's equal to or greater than 0, but less than 10.
+Si quieres un número de punto flotante aleatorio (también llamado float), puedes usar la función `uniform`. Por ejemplo, la siguiente línea de código producirá un número flotante aleatorio que sea igual o mayor que 0, pero menor que 10.
 
 ```python
 from random import uniform
@@ -20,10 +20,10 @@ num = uniform(0,10)
 
 ### choice
 
-If you want to choose a random item from a list, you can use the `choice` function.
+Si quieres elegir un elemento aleatorio de una lista, puedes usar la función `choice`.
 
 ```python
 from random import choice
-deck = ['Ace', 'King', 'Queen', 'Jack']
-card = choice(deck)
+palo = ['Oros', 'Copas', 'Espadas', 'Bastos']
+carta = choice(palo)
 ```
