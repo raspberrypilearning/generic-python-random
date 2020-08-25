@@ -1,0 +1,14 @@
+---
+title: Aleatoriedad en Python
+hero_image: images/banner.png
+description: Cómo usar el módulo aleatorio de la biblioteca estándar de Python
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests:
+technology: "python"
+steps:
+  - title: El módulo aleatorio
