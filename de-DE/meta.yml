@@ -1,0 +1,14 @@
+---
+title: Zufall in Python
+hero_image: images/banner.png
+description: Wie man das Zufallsmodul aus der Python-Standardbibliothek nutzt
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests:
+technology: "python"
+steps:
+  - title: Das Zufallsmodul
