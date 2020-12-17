@@ -1,0 +1,14 @@
+---
+title: Случайность в Python
+hero_image: images/banner.png
+description: Как использовать модуль random из стандартной библиотеки Python
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests:
+technology: "python"
+steps:
+  - title: Модуль random
