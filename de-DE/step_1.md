@@ -11,7 +11,7 @@ num = randint(0,10)
 
 ### uniform
 
-Wenn du eine zufällige Fließkommazahl (auch float genannt) haben willst, kannst du die `uniform` Funktion verwenden. Zum Beispiel erzeugt die folgende Codezeile eine zufällige Fließkommazahl, der gleich oder größer als 0 ist, aber kleiner als 10.
+Wenn du eine zufällige Fließkommazahl (auch float genannt) haben willst, kannst du die `uniform` Funktion verwenden. Zum Beispiel erzeugt die folgende Codezeile eine zufällige Fließkommazahl, die gleich oder größer als 0, aber kleiner als 10 ist.
 
 ```python
 from random import uniform
