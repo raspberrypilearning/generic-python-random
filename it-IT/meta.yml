@@ -1,0 +1,14 @@
+---
+title: Casualità in Python
+hero_image: images/banner.png
+description: Come usare il modulo random dalla libreria standard Python
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests:
+technology: "python"
+steps:
+  - title: Il modulo random
